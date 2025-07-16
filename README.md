@@ -17,16 +17,16 @@ Developed as part of an academic exercise, it demonstrates key data structure co
 
 ## 📁 File Structure
 - **Hashset.c** - Core logic (insert, erase, resize, etc.)
-- Hashset.h # Public API definition
-- Node.c # Internal key-value structure implementation
-- Node.h # Node struct and related functions
-- Hash.h # Simple hash functions for ints, strings, etc
-- Utils.h # Utility macros and conversion helpers
+- **Hashset.h** - Public API definition
+- **Node.c** - Internal key-value structure implementation
+- **Node.h** - Node struct and related functions
+- **Hash.h** - Simple hash functions for ints, strings, etc
+- **Utils.h** - Utility macros and conversion helpers
 
 ## Testing Framework
-├── tests.c #Contains test cases
-├── test_runner.c #Lightweight test execution engine
-├── test_runner.h #Header for the test runner
+- **tests.c** (Contains test cases)
+- **test_runner.c** (Lightweight test execution engine)
+- **test_runner.h** (Header for the test runner)
 
 
 ---
