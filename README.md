@@ -55,6 +55,7 @@ The user supplies:
 - An equality comparator
 - A value destructor function (Optional)
 
+---
 
 ## Running the Tests 🧪
 Compile and run all tests using:
