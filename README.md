@@ -61,7 +61,50 @@ The user supplies:
 ## Running the Tests 🧪
 Compile and run all tests using:
 
-### to complete
+```bash
+gcc -std=c99 -Wall -Wextra -o tests tests.c test_runner.c HashSet.c Node.c
+./tests
+```
+**All tests will run automatically and report pass/fail status.**
+
+---
+
+## 🧠 Concepts Demonstrated
+- Generic programming in C (using void*)
+- Hashing & collision resolution strategies
+- Memory management and error handling
+- Closed hashing (open addressing) vs. separate chaining
+- API design for reusable C modules
+- Simple unit testing without external frameworks
+
+---
+
+## 📜 Hash Function Example
+The default hash function for integers uses:
+
+```bash
+hash(x) = x & (capacity - 1)
+```
+Which is fast and valid for table sizes that are powers of 2 (capacity = 2^n).
+
+More functions available in Hash.h, including support for:
+Integers
+Strings
+Floats (Via Casting)
+
+---
+
+## 📝 Notes
+- Only Node.c and HashSet.c were required for submission, but the rest are provided for completeness.
+- Code adheres to C99 and was tested in a Linux environment.
+- Foolproofing was emphasized: the system gracefully handles invalid input (e.g. NULL).
+
+
+
+
+
+
+
 
 
 
