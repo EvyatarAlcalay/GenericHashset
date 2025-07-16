@@ -16,7 +16,7 @@ Developed as part of an academic exercise, it demonstrates key data structure co
 ---
 
 ## 📁 File Structure
-- Hashset.c # Core logic (insert, erase, resize, etc.)
+- **Hashset.c** - Core logic (insert, erase, resize, etc.)
 - Hashset.h # Public API definition
 - Node.c # Internal key-value structure implementation
 - Node.h # Node struct and related functions
