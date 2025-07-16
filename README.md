@@ -88,9 +88,9 @@ hash(x) = x & (capacity - 1)
 Which is fast and valid for table sizes that are powers of 2 (capacity = 2^n).
 
 More functions available in Hash.h, including support for:
-Integers
-Strings
-Floats (Via Casting)
+- Integers
+- Strings
+- Floats (Via Casting)
 
 ---
 
