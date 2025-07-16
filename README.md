@@ -49,6 +49,7 @@ hashSetInsert(hs, someValue);
 bool exists = hashSetContains(hs, someValue);
 hashSetErase(hs, someValue);
 hashSetFree(hs);
+```
 
 The user supplies:
 - A hash function (e.g. from Hash.h)
